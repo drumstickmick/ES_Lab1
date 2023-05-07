@@ -1,10 +1,10 @@
 #include "mbed.h"
 
-InterruptIn up(p16);
-InterruptIn down(p17);
-InterruptIn left(p18);
-InterruptIn right(p19);
-InterruptIn center(p20);
+InterruptIn up(p12);
+InterruptIn down(p13);
+InterruptIn left(p15);
+InterruptIn right(p16);
+InterruptIn center(p14);
 
 int main() {
     up.mode(PullDown);    // Set up mode and pull-down resistors
